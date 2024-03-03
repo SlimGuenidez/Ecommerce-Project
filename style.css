@@ -1,0 +1,143 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.siteTitle {
+  display: flex;
+  align-items: center;
+}
+
+.siteTitle h1 {
+  cursor: pointer;
+}
+
+.navTitles {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin-right: 10px;
+}
+
+a {
+  color: white;
+}
+
+.separator {
+  margin: 7px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  margin-left: 450px;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px
+}
+
+.searchInput {
+  border: none;
+  margin-right: 5px;
+}
+
+.searchIcon {
+  height: 20px;
+  cursor: pointer;
+}
+.welcome {
+  position: absolute;
+  top: 30%; 
+  left: 20%; 
+  color: #333;
+  font-size: 36px;
+}
+.description {
+  position: absolute;
+  top: 40%; 
+  left: 20%; 
+  color: #333; 
+  font-size: 16px; 
+  margin: 20px 0;
+  background-color: white;
+  padding: 30px;
+  padding-right: 100px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px black
+}
+.shopNow{
+  position: absolute;
+  top: 80%; 
+  left: 35%; 
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  background-color: #333;
+  text-decoration: none;
+}
+.shopNow:hover {
+  background-color: #555;
+}
+
+.coloredText {     /* coloredText refers to KISS MY SHOES in the home page with background Black */
+  color: white; 
+  background-color: #333;
+  padding: 10px ;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+}
+
+#backgroundImg {
+  width: 100%;
+  height: 100vh;
+  clip-path: polygon(25% 0%, 100% 0, 100% 50%, 100% 99%, 25% 100%, 0% 50%);
+}
+section {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+}
+#features{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.feature{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.featureImg{
+  width: 50%;
+}
+.featureTitle{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+.featureDescription{
+  color: gray;
+  width: 50%;
+  height: 100px;
+}
